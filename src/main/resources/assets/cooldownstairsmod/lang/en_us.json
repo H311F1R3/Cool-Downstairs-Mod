@@ -1,3 +1,4 @@
 {
-  "item.cooldownstairsmod.dummy_face": "Dummy Face"
+  "item.cooldownstairsmod.dummy_face": "Dummy Face",
+  "sounds.cooldownstairsmod.dummy_face_use": "Dummy Face used"
 }
