@@ -2,7 +2,10 @@
   "dummy_face_use": {
     "subtitle": "sounds.cooldownstairsmod.dummy_face_use",
     "sounds": [
-      "cooldownstairsmod:dummy_face_use"
+      {
+        "name": "cooldownstairsmod:dummy_face_use",
+        "stream": false
+      }
     ]
   }
 }
