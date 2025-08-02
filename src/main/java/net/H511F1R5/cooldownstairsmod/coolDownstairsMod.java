@@ -32,7 +32,7 @@ public class coolDownstairsMod {
         // Register the commonSetup method for modloading
         modEventBus.addListener(this::commonSetup);
 
-        cooldownstairsSoundEvents.register(modEventBus);
+        cooldownstairsSoundEvents.register(FMLJavaModLoadingContext.get().getModEventBus());
 
         // Register ourselves for server and other game events we are interested in
         MinecraftForge.EVENT_BUS.register(this);

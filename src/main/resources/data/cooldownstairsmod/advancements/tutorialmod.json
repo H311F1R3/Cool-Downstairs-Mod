@@ -1,0 +1,28 @@
+{
+  "display": {
+    "icon": {
+      "item": "cooldownstairsmod:dummy_face"
+    },
+    "title": "The Elusive Dummy Face!",
+    "description": "Come across the elusive Dummy Face.",
+    "frame": "challenge",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false,
+    "background": "cooldownstairs:textures/item/dummyface.png"
+  },
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "cooldownstairsmod:dummy_face"
+            ]
+          }
+        ]
+      }
+    }
+  }
+}
