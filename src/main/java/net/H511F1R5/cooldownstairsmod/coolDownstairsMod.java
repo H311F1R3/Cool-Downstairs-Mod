@@ -1,7 +1,10 @@
 package net.H511F1R5.cooldownstairsmod;
 
 import com.mojang.logging.LogUtils;
+import net.H511F1R5.cooldownstairsmod.item.modItems;
+import net.minecraft.world.item.CreativeModeTabs;
 import net.minecraftforge.api.distmarker.Dist;
+import net.minecraftforge.common.CreativeModeTabRegistry;
 import net.minecraftforge.common.MinecraftForge;
 import net.minecraftforge.event.BuildCreativeModeTabContentsEvent;
 import net.minecraftforge.event.server.ServerStartingEvent;
@@ -26,6 +29,7 @@ public class coolDownstairsMod {
     {
         IEventBus modEventBus = context.getModEventBus();
 
+        modItems.register(modEventBus);
         // Register the commonSetup method for modloading
         modEventBus.addListener(this::commonSetup);
 
@@ -44,9 +48,10 @@ public class coolDownstairsMod {
     }
 
     // Add the example block item to the building blocks tab
-    private void addCreative(BuildCreativeModeTabContentsEvent event)
-    {
-
+    private void addCreative(BuildCreativeModeTabContentsEvent event) {
+        if(event.getTabKey() == CreativeModeTabs.INGREDIENTS) {
+            event.accept(modItems.DUMMYFACE);
+        }
     }
 
     // You can use SubscribeEvent and let the Event Bus discover methods to call
