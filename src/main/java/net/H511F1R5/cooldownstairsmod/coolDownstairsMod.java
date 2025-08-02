@@ -50,7 +50,7 @@ public class coolDownstairsMod {
     // Add the example block item to the building blocks tab
     private void addCreative(BuildCreativeModeTabContentsEvent event) {
         if(event.getTabKey() == CreativeModeTabs.INGREDIENTS) {
-            event.accept(modItems.DUMMYFACE);
+            event.accept(modItems.DUMMY_FACE);
         }
     }
 
