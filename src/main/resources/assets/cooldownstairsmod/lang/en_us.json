@@ -1,4 +1,6 @@
 {
   "item.cooldownstairsmod.dummy_face": "Dummy Face",
-  "sounds.cooldownstairsmod.dummy_face_use": "Dummy Face used"
+  "item.cooldownstairsmod.dealmaker": "Dealmaker",
+  "sounds.cooldownstairsmod.dummy_face_use": "Dummy Face used",
+  "sounds.cooldownstairsmod.dealmaker_equip": "Dealmaker [WORN]"
 }

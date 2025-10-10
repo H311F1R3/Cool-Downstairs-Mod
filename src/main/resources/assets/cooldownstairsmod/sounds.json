@@ -1,10 +1,14 @@
 {
   "dummy_face_use": {
+    "subtitle": "sounds.cooldownstairsmod.dummy_face_use",
     "sounds": [
       {
-        "name": "cooldownstairsmod:dummy_face_use",
-        "stream": false
+        "name": "cooldownstairsmod:dummy_face_use"
       }
     ]
+  },
+  "dealmaker_equip": {
+    "subtitle": "sounds.cooldownstairsmod.dealmaker_equip",
+    "sounds": [ "cooldownstairsmod:dealmaker_equip" ]
   }
 }

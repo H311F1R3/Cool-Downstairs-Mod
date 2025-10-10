@@ -1,6 +1,6 @@
 {
   "parent": "minecraft:item/generated",
   "textures": {
-      "layer0": "cooldownstairsmod:item/dummyfacetexture"
+      "layer0": "cooldownstairsmod:item/dealmakertexture"
   }
 }
