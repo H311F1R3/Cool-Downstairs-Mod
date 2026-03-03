@@ -1,12 +1,7 @@
 package net.H511F1R5.cooldownstairsmod.item;
 
 import net.H511F1R5.cooldownstairsmod.coolDownstairsMod;
-import net.H511F1R5.cooldownstairsmod.item.custom.modArmorItems;
-import net.H511F1R5.cooldownstairsmod.item.modArmorMaterials;
-import net.H511F1R5.cooldownstairsmod.sounds.cooldownstairsSoundEvents;
-import net.minecraft.sounds.SoundEvent;
-import net.minecraft.sounds.SoundEvents;
-import net.minecraft.world.entity.EquipmentSlot;
+import net.H511F1R5.cooldownstairsmod.sounds.coolDownstairsSoundEvents;
 import net.minecraft.world.item.ArmorItem;
 import net.minecraft.world.item.Item;
 import net.minecraft.world.item.Items;
@@ -18,8 +13,8 @@ import net.minecraftforge.registries.RegistryObject;
 
 public class modItems {
 
-    public static final modArmorMaterials DEALMAKER_MATERIAL = new modArmorMaterials("dealmaker", 17, new int[]{3, 6, 8, 3}, 3, 17, cooldownstairsSoundEvents.DEALMAKER_EQUIP_SOUND::get, 0);
-    public static final modArmorMaterials FOOTBALLHELM_MATERIAL = new modArmorMaterials("football_helmet", 15, new int[]{5, 5, 5, 5}, 5, 14, cooldownstairsSoundEvents.FOOTBALLHELM_EQUIP_SOUND::get, 7);
+    public static final modArmorMaterials DEALMAKER_MATERIAL = new modArmorMaterials("dealmaker", 17, new int[]{3, 6, 8, 3}, 3, 17, coolDownstairsSoundEvents.DEALMAKER_EQUIP_SOUND::get, 0);
+    public static final modArmorMaterials FOOTBALLHELM_MATERIAL = new modArmorMaterials("football_helmet", 15, new int[]{5, 5, 5, 5}, 5, 14, coolDownstairsSoundEvents.FOOTBALLHELM_EQUIP_SOUND::get, 7);
 
     public static final DeferredRegister<Item> ITEMS =
             DeferredRegister.create(ForgeRegistries.ITEMS, coolDownstairsMod.MOD_ID);

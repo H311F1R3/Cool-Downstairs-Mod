@@ -2,7 +2,8 @@ package net.H511F1R5.cooldownstairsmod;
 
 import com.mojang.logging.LogUtils;
 import net.H511F1R5.cooldownstairsmod.item.modItems;
-import net.H511F1R5.cooldownstairsmod.sounds.cooldownstairsSoundEvents;
+import net.H511F1R5.cooldownstairsmod.sounds.coolDownstairsSoundEvents;
+import net.H511F1R5.cooldownstairsmod.effect.coolDownstairsEffectRegistry;
 import net.minecraft.world.item.CreativeModeTabs;
 import net.minecraftforge.api.distmarker.Dist;
 import net.minecraftforge.common.MinecraftForge;
@@ -10,7 +11,6 @@ import net.minecraftforge.event.BuildCreativeModeTabContentsEvent;
 import net.minecraftforge.event.server.ServerStartingEvent;
 import net.minecraftforge.eventbus.api.IEventBus;
 import net.minecraftforge.eventbus.api.SubscribeEvent;
-import net.minecraftforge.fml.DistExecutor;
 import net.minecraftforge.fml.common.Mod;
 import net.minecraftforge.fml.event.lifecycle.FMLClientSetupEvent;
 import net.minecraftforge.fml.event.lifecycle.FMLCommonSetupEvent;
@@ -25,15 +25,15 @@ public class coolDownstairsMod {
     // Directly reference a slf4j logger
     private static final Logger LOGGER = LogUtils.getLogger();
 
-    public coolDownstairsMod(FMLJavaModLoadingContext context)
-    {
-        IEventBus modEventBus = context.getModEventBus();
+    public coolDownstairsMod(FMLJavaModLoadingContext context) {
+        IEventBus modEventBus = FMLJavaModLoadingContext.get().getModEventBus();
 
         modItems.register(modEventBus);
+        coolDownstairsEffectRegistry.EFFECT_DEF_REG.register(modEventBus);
+        coolDownstairsSoundEvents.SOUND_EVENTS.register(modEventBus);
         // Register the commonSetup method for modloading
         modEventBus.addListener(this::commonSetup);
 
-        cooldownstairsSoundEvents.register(FMLJavaModLoadingContext.get().getModEventBus());
 
         // Register ourselves for server and other game events we are interested in
         MinecraftForge.EVENT_BUS.register(this);
@@ -41,7 +41,7 @@ public class coolDownstairsMod {
         // Register the item to a creative tab
         modEventBus.addListener(this::addCreative);
 
-        
+
     }
 
     private void commonSetup(final FMLCommonSetupEvent event)

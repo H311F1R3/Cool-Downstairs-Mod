@@ -1,13 +1,10 @@
 package net.H511F1R5.cooldownstairsmod.item;
 
 import net.H511F1R5.cooldownstairsmod.coolDownstairsMod;
-import net.H511F1R5.cooldownstairsmod.sounds.cooldownstairsSoundEvents;
 import net.minecraft.sounds.SoundEvent;
 import net.minecraft.world.item.ArmorItem;
 import net.minecraft.world.item.ArmorMaterial;
-import net.minecraft.world.item.Items;
 import net.minecraft.world.item.crafting.Ingredient;
-import org.jetbrains.annotations.NotNull;
 
 import java.util.function.Supplier;
 

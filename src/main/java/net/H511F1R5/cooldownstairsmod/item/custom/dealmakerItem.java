@@ -1,10 +1,9 @@
 package net.H511F1R5.cooldownstairsmod.item.custom;
 
 import net.H511F1R5.cooldownstairsmod.item.modItems;
-import net.H511F1R5.cooldownstairsmod.sounds.cooldownstairsSoundEvents;
+import net.H511F1R5.cooldownstairsmod.sounds.coolDownstairsSoundEvents;
 import net.H511F1R5.cooldownstairsmod.effect.coolDownstairsEffectRegistry;
 import net.minecraft.sounds.SoundEvent;
-import net.minecraft.world.effect.MobEffect;
 import net.minecraft.world.effect.MobEffectInstance;
 import net.minecraft.world.entity.EquipmentSlot;
 import net.minecraft.world.entity.player.Player;
@@ -22,7 +21,7 @@ public class dealmakerItem extends Item {
     public void onArmorTick(ItemStack stack, Level world, Player player) {
         if (!world.isClientSide) {
             if (player.getInventory().armor.get(3).getItem() == modItems.DEALMAKER.get()) {
-                player.addEffect(new MobEffectInstance(coolDownstairsEffectRegistry.BIG_SHOT.get(), 210, 0, true, false ));
+                player.addEffect(new MobEffectInstance(coolDownstairsEffectRegistry.BIG_SHOT.get(), 210, 0, true, true ));
             }
         }
     }
@@ -37,7 +36,7 @@ public class dealmakerItem extends Item {
     }
 
     public SoundEvent getEquipSound() {
-        return cooldownstairsSoundEvents.DEALMAKER_EQUIP_SOUND.get();
+        return coolDownstairsSoundEvents.DEALMAKER_EQUIP_SOUND.get();
     }
 
 }

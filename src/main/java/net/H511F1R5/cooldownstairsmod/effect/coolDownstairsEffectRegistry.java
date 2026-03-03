@@ -11,5 +11,5 @@ public class coolDownstairsEffectRegistry {
     public static final DeferredRegister<MobEffect> EFFECT_DEF_REG = DeferredRegister.create(ForgeRegistries.MOB_EFFECTS, coolDownstairsMod.MOD_ID);
     public static final DeferredRegister<Potion> POTION_DEF_REG = DeferredRegister.create(ForgeRegistries.POTIONS, coolDownstairsMod.MOD_ID);
 
-    public static final RegistryObject<MobEffect> BIG_SHOT = EFFECT_DEF_REG.register("big_shot", bigShotEffect::new);
+    public static final RegistryObject<MobEffect> BIG_SHOT = EFFECT_DEF_REG.register("big_shot", effectBigShot::new);
 }

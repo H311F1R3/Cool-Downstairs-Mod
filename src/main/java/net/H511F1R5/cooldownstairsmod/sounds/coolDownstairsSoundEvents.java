@@ -8,7 +8,7 @@ import net.minecraftforge.registries.DeferredRegister;
 import net.minecraftforge.registries.ForgeRegistries;
 import net.minecraftforge.registries.RegistryObject;
 
-public class cooldownstairsSoundEvents {
+public class coolDownstairsSoundEvents {
     public static final DeferredRegister<SoundEvent> SOUND_EVENTS = DeferredRegister.create(ForgeRegistries.SOUND_EVENTS, coolDownstairsMod.MOD_ID);
 
     public static final RegistryObject<SoundEvent> DUMMY_FACE_USE = registerSoundEvents("dummy_face_use");
@@ -17,7 +17,8 @@ public class cooldownstairsSoundEvents {
             SOUND_EVENTS.register("dealmaker_equip",
                     () -> SoundEvent.createVariableRangeEvent(new ResourceLocation(coolDownstairsMod.MOD_ID, "dealmaker_equip")));
     public static final RegistryObject<SoundEvent> FOOTBALLHELM_EQUIP_SOUND = registerSoundEvents("footballhelm_equip");
-    private static RegistryObject<SoundEvent> registerSoundEvents(String name) {
+
+    private static RegistryObject<SoundEvent> registerSoundEvents(final String name) {
         return SOUND_EVENTS.register(name, () -> SoundEvent.createVariableRangeEvent(new ResourceLocation(coolDownstairsMod.MOD_ID, name)));
     }
 
