@@ -25,7 +25,7 @@ public class modArmorMaterials implements ArmorMaterial {;
 
 
     modArmorMaterials(String name, int durabilityModifier, int[] durabilityForType, int protectionAmounts,  int enchantmentValue, Supplier<SoundEvent> equipSound, float toughness, float knockbackResistance, Supplier<Ingredient> repairIngredient, Ingredient ingredient) {
-        this.name = coolDownstairsMod.MOD_ID + ":" + name;
+        this.name = name;
         this.durability = durabilityModifier;
         this.durabilityForType = durabilityForType;
         this.protectionAmounts = protectionAmounts;
@@ -37,7 +37,7 @@ public class modArmorMaterials implements ArmorMaterial {;
     }
 
     public modArmorMaterials(String name, int durabilityModifier, int[] durabilityForType, int protectionAmounts, int enchantmentValue, Supplier<SoundEvent> equipSound, int toughness) {
-        this.name = coolDownstairsMod.MOD_ID + ":" + name;
+        this.name = name;
         this.durability = durabilityModifier;
         this.durabilityForType = durabilityForType;
         this.protectionAmounts = protectionAmounts;

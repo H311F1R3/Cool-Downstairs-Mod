@@ -10,5 +10,11 @@
     "sounds": [
       "cooldownstairsmod:dealmaker_equip"
     ]
+  },
+  "cha_ching": {
+    "subtitle": "subtitles.cooldownstairsmod.cha_ching",
+    "sounds": [
+      "cooldownstairsmod:cha_ching"
+    ]
   }
 }

@@ -5,12 +5,16 @@ import net.H511F1R5.cooldownstairsmod.coolDownstairsMod;
 import net.H511F1R5.cooldownstairsmod.effect.coolDownstairsEffectRegistry;
 import com.google.common.collect.Multimap;
 import net.H511F1R5.cooldownstairsmod.item.modArmorMaterials;
+import net.H511F1R5.cooldownstairsmod.item.modItems;
+import net.minecraft.world.entity.Entity;
+import net.minecraft.world.entity.EquipmentSlot;
 import net.minecraft.world.entity.ai.attributes.Attribute;
 import net.minecraft.world.entity.ai.attributes.AttributeModifier;
 import net.minecraft.world.entity.ai.attributes.Attributes;
 import net.minecraft.world.item.ArmorItem;
 import net.minecraft.world.item.ArmorMaterial;
 import net.minecraft.world.item.Item;
+import net.minecraft.world.item.ItemStack;
 import net.minecraftforge.client.extensions.common.IClientItemExtensions;
 import net.minecraftforge.common.ForgeMod;
 
@@ -31,6 +35,15 @@ public class modArmorItems extends ArmorItem {
         UUID uuid = ARMOR_MODIFIERS[type.ordinal()];
         builder.put(Attributes.ARMOR, new AttributeModifier(uuid, "Armor modifier", materialIn.getDefenseForType(this.type), AttributeModifier.Operation.ADDITION));
         AttributeMapDealmaker = builder.build();
+    }
+
+    public String getArmorTexture(ItemStack stack, Entity entity, EquipmentSlot slot, String type) {
+        if (this.material == modItems.DEALMAKER_MATERIAL) {
+            return "cooldownstairsmod:textures/models/armor/dealmaker.png";
+        } else if (this.material == modItems.FOOTBALLHELM_MATERIAL) {
+            return "cooldownstairsmod:textures/models/armor/footballhelm.png";
+        }
+        return super.getArmorTexture(stack, entity, slot, type);
     }
 
 }
