@@ -1,0 +1,8 @@
+{
+  "parent": "block/cube_bottom_top",
+  "textures": {
+    "bottom": "cooldownstairsmod:block/billiard1x1_bottom",
+    "top": "cooldownstairsmod:block/billiard1x1_top",
+    "side": "cooldownstairsmod:block/billiard1x1_side"
+  }
+}

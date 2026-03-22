@@ -1,6 +1,8 @@
 package net.H511F1R5.cooldownstairsmod;
 
 import com.mojang.logging.LogUtils;
+import net.H511F1R5.cooldownstairsmod.blocks.coolDownstairsBlocks;
+import net.H511F1R5.cooldownstairsmod.item.coolDownstairsCreativeTab;
 import net.H511F1R5.cooldownstairsmod.item.modItems;
 import net.H511F1R5.cooldownstairsmod.sounds.coolDownstairsSoundEvents;
 import net.H511F1R5.cooldownstairsmod.effect.coolDownstairsEffectRegistry;
@@ -28,7 +30,9 @@ public class coolDownstairsMod {
     public coolDownstairsMod(FMLJavaModLoadingContext context) {
         IEventBus modEventBus = FMLJavaModLoadingContext.get().getModEventBus();
 
+        coolDownstairsCreativeTab.register(modEventBus);
         modItems.register(modEventBus);
+        coolDownstairsBlocks.register(modEventBus);
         coolDownstairsEffectRegistry.EFFECT_DEF_REG.register(modEventBus);
         coolDownstairsSoundEvents.register(modEventBus);
         // Register the commonSetup method for modloading
@@ -48,21 +52,7 @@ public class coolDownstairsMod {
 
     // Add the example block item to the building blocks tab
     private void addCreative(BuildCreativeModeTabContentsEvent event) {
-        if (event.getTabKey() == CreativeModeTabs.INGREDIENTS) {
-            event.accept(modItems.DUMMY_FACE);
-        }
-        if (event.getTabKey() == CreativeModeTabs.COMBAT) {
-            event.accept(modItems.DEALMAKER);
-        }
-        if (event.getTabKey() == CreativeModeTabs.COMBAT) {
-            event.accept(modItems.POOL_CUE);
-        }
-        if(event.getTabKey() == CreativeModeTabs.TOOLS_AND_UTILITIES) {
-            event.accept(modItems.TIGGER_TELL);
-        }
-        if (event.getTabKey() == CreativeModeTabs.COMBAT) {
-            event.accept(modItems.CHAIN_SWORD);
-        }
+
     }
 
     // You can use SubscribeEvent and let the Event Bus discover methods to call

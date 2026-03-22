@@ -1,10 +1,7 @@
 package net.H511F1R5.cooldownstairsmod.item;
 
 import net.H511F1R5.cooldownstairsmod.coolDownstairsMod;
-import net.H511F1R5.cooldownstairsmod.item.custom.chainswordItem;
-import net.H511F1R5.cooldownstairsmod.item.custom.dummyFaceItem;
-import net.H511F1R5.cooldownstairsmod.item.custom.poolCueItem;
-import net.H511F1R5.cooldownstairsmod.item.custom.tiggerTellItem;
+import net.H511F1R5.cooldownstairsmod.item.custom.*;
 import net.H511F1R5.cooldownstairsmod.sounds.coolDownstairsSoundEvents;
 import net.minecraft.world.item.ArmorItem;
 import net.minecraft.world.item.Item;
@@ -28,12 +25,12 @@ public class modItems {
         public static final RegistryObject<Item> DUMMY_FACE = ITEMS.register("dummy_face",
                         () -> new dummyFaceItem(new Item.Properties()));
         public static final RegistryObject<Item> DEALMAKER = ITEMS.register("dealmaker",
-                        () -> new net.H511F1R5.cooldownstairsmod.item.custom.dealmakerItem(DEALMAKER_MATERIAL, ArmorItem.Type.HELMET, new Item.Properties()));
+                        () -> new dealmakerItem(DEALMAKER_MATERIAL, ArmorItem.Type.HELMET, new Item.Properties()));
         public static final RegistryObject<Item> CHAIN_SWORD = ITEMS.register("chainsword",
                         () -> new chainswordItem(new Item.Properties()));
         public static final RegistryObject<Item> POOL_CUE = ITEMS.register("pool_cue",
                         () -> new poolCueItem(new Item.Properties()));
-        public static final RegistryObject<Item> TIGGER_TELL = ITEMS.register("tiggertell",
+        public static final RegistryObject<Item> TIGGER_TELL = ITEMS.register("tigger_tell",
                         () -> new tiggerTellItem(new Item.Properties()));
         public static final RegistryObject<Item> FOOTBALL_HELMET = ITEMS.register("football_helmet",
                         () -> new ArmorItem(FOOTBALLHELM_MATERIAL, ArmorItem.Type.HELMET, new Item.Properties()));

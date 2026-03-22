@@ -1,7 +1,15 @@
 {
   "item.cooldownstairsmod.dummy_face": "Dummy Face",
   "item.cooldownstairsmod.dealmaker": "Dealmaker",
+  "item.cooldownstairsmod.chainsword": "Chainsword",
+  "item.cooldownstairsmod.pool_cue": "Pool Cue",
+  "item.cooldownstairsmod.tigger_tell": "Tigger Tell",
+  "block.cooldownstairsmod.billiard_table": "Billiard Table",
+  "block.cooldownstairsmod.speaker_block": "Speaker Block",
+  "effect.cooldownstairsmod.big_shot": "[BIG SHOT]",
+  "effect.cooldownstairsmod.chain_bleed": "Chain Bleed",
   "subtitles.cooldownstairsmod.dummy_face_use": "Dummy Face used",
   "subtitles.cooldownstairsmod.dealmaker_equip": "Dealmaker [WORN]",
-  "subtitles.cooldownstairsmod.cha_ching": "WHAT A DEAL!"
+  "subtitles.cooldownstairsmod.cha_ching": "WHAT A DEAL!",
+  "creativetab.cooldownstairs_tab": "Cool Downstairs Mod"
 }
