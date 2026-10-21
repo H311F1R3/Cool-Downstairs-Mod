@@ -2,8 +2,8 @@ package net.H511F1R5.cooldownstairsmod.events;
 
 import net.H511F1R5.cooldownstairsmod.coolDownstairsMod;
 import net.H511F1R5.cooldownstairsmod.effect.coolDownstairsEffectRegistry;
+import net.H511F1R5.cooldownstairsmod.item.coolDownstairsItems;
 import net.H511F1R5.cooldownstairsmod.sounds.coolDownstairsSoundEvents;
-import net.H511F1R5.cooldownstairsmod.item.modItems;
 import net.minecraft.world.entity.player.Player;
 import net.minecraft.world.item.ItemStack;
 import net.minecraft.world.item.Items;
@@ -34,7 +34,7 @@ public class coolDownstairsPlayerEvents {
     }
     public static void dummyFaceWorkDamnit(PlayerInteractEvent.RightClickItem event) {
         Player player = event.getEntity();
-        if (player.getMainHandItem().getItem() == modItems.DUMMY_FACE.get()) {
+        if (player.getMainHandItem().getItem() == coolDownstairsItems.DUMMY_FACE.get()) {
             player.playSound(coolDownstairsSoundEvents.DUMMY_FACE_USE.get(), 1, 1);
         }
     }

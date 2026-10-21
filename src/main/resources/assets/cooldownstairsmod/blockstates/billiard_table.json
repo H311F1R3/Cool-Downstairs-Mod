@@ -1,7 +1,30 @@
 {
   "variants": {
-    "": {
-      "model": "cooldownstairsmod/block/billiard_table"
-    }
+    "type=single": { "model": "cooldownstairsmod:block/billiards/single" },
+    
+    "type=1x2_1a": { "model": "cooldownstairsmod:block/billiards/1x2_1a" },
+    "type=1x2_2a": { "model": "cooldownstairsmod:block/billiards/1x2_2a" },
+    
+    "type=2x1_1a": { "model": "cooldownstairsmod:block/billiards/1x2_2a", "y": 90 },
+    "type=2x1_1b": { "model": "cooldownstairsmod:block/billiards/1x2_1a", "y": 90 },
+    
+    "type=2x2_1a": { "model": "cooldownstairsmod:block/billiards/2x2_1a" },
+    "type=2x2_1b": { "model": "cooldownstairsmod:block/billiards/2x2_1b" },
+    "type=2x2_2a": { "model": "cooldownstairsmod:block/billiards/2x2_2a" },
+    "type=2x2_2b": { "model": "cooldownstairsmod:block/billiards/2x2_2b" },
+    
+    "type=2x3_1a": { "model": "cooldownstairsmod:block/billiards/2x3_1a" },
+    "type=2x3_1b": { "model": "cooldownstairsmod:block/billiards/2x3_1b" },
+    "type=2x3_2a": { "model": "cooldownstairsmod:block/billiards/2x3_2a" },
+    "type=2x3_2b": { "model": "cooldownstairsmod:block/billiards/2x3_2b" },
+    "type=2x3_3a": { "model": "cooldownstairsmod:block/billiards/2x3_3a" },
+    "type=2x3_3b": { "model": "cooldownstairsmod:block/billiards/2x3_3b" },
+    
+    "type=3x2_1a": { "model": "cooldownstairsmod:block/billiards/2x3_3a", "y": 90 },
+    "type=3x2_1b": { "model": "cooldownstairsmod:block/billiards/2x3_2a", "y": 90 },
+    "type=3x2_1c": { "model": "cooldownstairsmod:block/billiards/2x3_1a", "y": 90 },
+    "type=3x2_2a": { "model": "cooldownstairsmod:block/billiards/2x3_3b", "y": 90 },
+    "type=3x2_2b": { "model": "cooldownstairsmod:block/billiards/2x3_2b", "y": 90 },
+    "type=3x2_2c": { "model": "cooldownstairsmod:block/billiards/2x3_1b", "y": 90 }
   }
 }

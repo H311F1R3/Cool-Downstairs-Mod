@@ -1,0 +1,49 @@
+{
+  "credit": "Made with Blockbench",
+  "loader": "forge:separate_transforms",
+  "base": {
+    "parent": "builtin/entity",
+    "display": {
+      "thirdperson_righthand": {
+        "rotation": [
+          17.5,
+          0,
+          0
+        ],
+        "translation": [
+          -0.25,
+          -2.25,
+          0.25
+        ]
+      },
+      "thirdperson_lefthand": {
+        "translation": [
+          0,
+          -7,
+          0.5
+        ]
+      },
+      "firstperson_righthand": {
+        "translation": [
+          1.75,
+          -7.5,
+          -1
+        ]
+      }
+    },
+    "textures": {
+      "particle": "cooldownstairsmod:item/poolcue_16x"
+    }
+  },
+  "perspectives": {
+    "gui": {
+      "parent": "cooldownstairsmod:item/pool_cue_inventory"
+    },
+    "ground": {
+      "parent": "cooldownstairsmod:item/pool_cue_inventory"
+    },
+    "fixed": {
+      "parent": "cooldownstairsmod:item/pool_cue_inventory"
+    }
+  }
+}

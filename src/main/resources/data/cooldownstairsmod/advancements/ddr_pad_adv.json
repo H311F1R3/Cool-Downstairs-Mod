@@ -1,0 +1,31 @@
+{
+  "parent": "cooldownstairsmod:root",
+  "display": {
+    "icon": {
+      "item": "cooldownstairsmod:ddr_pad"
+    },
+    "title": "The Dance Dance Revolution WILL be Televised!",
+    "description": "find or craft a DDR Pad. Show ya moves!",
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "cooldownstairsmod:ddr_pad"
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    ["requirement"]
+  ]
+}

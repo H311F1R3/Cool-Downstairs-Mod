@@ -1,0 +1,33 @@
+{
+  "variants": {
+    "facing=north,half=lower,animation_state=0": { "model": "cooldownstairsmod:block/gumball_tower" },
+    "facing=east,half=lower,animation_state=0":  { "model": "cooldownstairsmod:block/gumball_tower", "y": 90 },
+    "facing=south,half=lower,animation_state=0": { "model": "cooldownstairsmod:block/gumball_tower", "y": 180 },
+    "facing=west,half=lower,animation_state=0":  { "model": "cooldownstairsmod:block/gumball_tower", "y": 270 },
+    
+    "facing=north,half=lower,animation_state=1": { "model": "cooldownstairsmod:block/gumball_tower_knobturn" },
+    "facing=east,half=lower,animation_state=1":  { "model": "cooldownstairsmod:block/gumball_tower_knobturn", "y": 90 },
+    "facing=south,half=lower,animation_state=1": { "model": "cooldownstairsmod:block/gumball_tower_knobturn", "y": 180 },
+    "facing=west,half=lower,animation_state=1":  { "model": "cooldownstairsmod:block/gumball_tower_knobturn", "y": 270 },
+
+    "facing=north,half=lower,animation_state=2": { "model": "cooldownstairsmod:block/gumball_tower_animspnk" },
+    "facing=east,half=lower,animation_state=2":  { "model": "cooldownstairsmod:block/gumball_tower_animspnk", "y": 90 },
+    "facing=south,half=lower,animation_state=2": { "model": "cooldownstairsmod:block/gumball_tower_animspnk", "y": 180 },
+    "facing=west,half=lower,animation_state=2":  { "model": "cooldownstairsmod:block/gumball_tower_animspnk", "y": 270 },
+
+    "facing=north,half=upper,animation_state=0": { "model": "cooldownstairsmod:block/gumball_tower_top" },
+    "facing=east,half=upper,animation_state=0":  { "model": "cooldownstairsmod:block/gumball_tower_top" },
+    "facing=south,half=upper,animation_state=0": { "model": "cooldownstairsmod:block/gumball_tower_top" },
+    "facing=west,half=upper,animation_state=0":  { "model": "cooldownstairsmod:block/gumball_tower_top" },
+
+    "facing=north,half=upper,animation_state=1": { "model": "cooldownstairsmod:block/gumball_tower_top" },
+    "facing=east,half=upper,animation_state=1":  { "model": "cooldownstairsmod:block/gumball_tower_top" },
+    "facing=south,half=upper,animation_state=1": { "model": "cooldownstairsmod:block/gumball_tower_top" },
+    "facing=west,half=upper,animation_state=1":  { "model": "cooldownstairsmod:block/gumball_tower_top" },
+
+    "facing=north,half=upper,animation_state=2": { "model": "cooldownstairsmod:block/gumball_tower_top" },
+    "facing=east,half=upper,animation_state=2":  { "model": "cooldownstairsmod:block/gumball_tower_top" },
+    "facing=south,half=upper,animation_state=2": { "model": "cooldownstairsmod:block/gumball_tower_top" },
+    "facing=west,half=upper,animation_state=2":  { "model": "cooldownstairsmod:block/gumball_tower_top" }
+  }
+}

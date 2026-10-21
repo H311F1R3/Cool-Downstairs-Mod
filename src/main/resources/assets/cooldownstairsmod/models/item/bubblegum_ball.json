@@ -1,0 +1,56 @@
+{
+    "parent": "item/generated",
+    "textures": {
+        "layer0": "cooldownstairsmod:item/gumballs/bubblegum_ball_pnk"
+    },
+    "overrides": [
+        {
+            "predicate": {
+                "cooldownstairsmod:color": 1.0
+            },
+            "model": "cooldownstairsmod:item/bubblegum_ball_blu"
+        },
+        {
+            "predicate": {
+                "cooldownstairsmod:color": 2.0
+            },
+            "model": "cooldownstairsmod:item/bubblegum_ball_grn"
+        },
+        {
+            "predicate": {
+                "cooldownstairsmod:color": 3.0
+            },
+            "model": "cooldownstairsmod:item/bubblegum_ball_ylw"
+        },
+        {
+            "predicate": {
+                "cooldownstairsmod:color": 4.0
+            },
+            "model": "cooldownstairsmod:item/bubblegum_ball_pur"
+        },
+        {
+            "predicate": {
+                "cooldownstairsmod:color": 5.0
+            },
+            "model": "cooldownstairsmod:item/bubblegum_ball_orn"
+        },
+        {
+            "predicate": {
+                "cooldownstairsmod:color": 6.0
+            },
+            "model": "cooldownstairsmod:item/bubblegum_ball_red"
+        },
+        {
+            "predicate": {
+                "cooldownstairsmod:color": 7.0
+            },
+            "model": "cooldownstairsmod:item/bubblegum_ball_wht"
+        },
+        {
+            "predicate": {
+                "cooldownstairsmod:color": 8.0
+            },
+            "model": "cooldownstairsmod:item/bubblegum_ball_trq"
+        }
+    ]
+}

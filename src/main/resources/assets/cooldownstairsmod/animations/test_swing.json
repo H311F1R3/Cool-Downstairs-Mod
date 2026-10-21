@@ -1,0 +1,31 @@
+{
+	"format_version": "1.8.0",
+	"animations": {
+		"test_swing": {
+			"animation_length": 1,
+			"bones": {
+				"poolCue": {
+					"rotation": {
+						"0.0": {
+							"vector": [0, 0, 0]
+						},
+						"0.1667": {
+							"vector": [17.5, 0, 0]
+						}
+					},
+					"position": {
+						"0.0": {
+							"vector": [0, 0, 0]
+						},
+						"0.3333": {
+							"vector": [0, 0, 7]
+						},
+						"0.7083": {
+							"vector": [0, 0, -4]
+						}
+					}
+				}
+			}
+		}
+	}
+}

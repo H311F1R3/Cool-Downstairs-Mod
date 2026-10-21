@@ -1,0 +1,34 @@
+{
+  "variants": {
+    "facing=north,half=lower": {
+      "model": "cooldownstairsmod:block/rastanana"
+    },
+    "facing=south,half=lower": {
+      "model": "cooldownstairsmod:block/rastanana",
+      "y": 180
+    },
+    "facing=west,half=lower": {
+      "model": "cooldownstairsmod:block/rastanana",
+      "y": 270
+    },
+    "facing=east,half=lower": {
+      "model": "cooldownstairsmod:block/rastanana",
+      "y": 90
+    },
+    "facing=north,half=upper": {
+      "model": "cooldownstairsmod:block/rastanana_top"
+    },
+    "facing=south,half=upper": {
+      "model": "cooldownstairsmod:block/rastanana_top",
+      "y": 180
+    },
+    "facing=west,half=upper": {
+      "model": "cooldownstairsmod:block/rastanana_top",
+      "y": 270
+    },
+    "facing=east,half=upper": {
+      "model": "cooldownstairsmod:block/rastanana_top",
+      "y": 90
+    }
+  }
+}

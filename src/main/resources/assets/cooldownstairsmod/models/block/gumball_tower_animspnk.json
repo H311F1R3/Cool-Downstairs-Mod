@@ -1,0 +1,6 @@
+{
+  "parent": "cooldownstairsmod:block/gumball_tower",
+  "textures": {
+    "1": "cooldownstairsmod:block/gumball_tower/gumballtowertextureanimspnk"
+  }
+}

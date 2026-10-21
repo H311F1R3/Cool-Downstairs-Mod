@@ -1,0 +1,6 @@
+{
+    "parent": "minecraft:item/generated",
+    "textures": {
+        "layer0": "cooldownstairsmod:item/game_component_tex"
+    }
+}

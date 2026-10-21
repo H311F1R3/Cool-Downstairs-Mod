@@ -1,0 +1,24 @@
+{
+	"format_version": "1.21.110",
+	"minecraft:geometry": [
+		{
+			"description": {
+				"identifier": "geometry.poolcue_full",
+				"texture_width": 64,
+				"texture_height": 64,
+				"visible_bounds_width": 3,
+				"visible_bounds_height": 3.5,
+				"visible_bounds_offset": [0, 1.25, 0]
+			},
+			"bones": [
+				{
+					"name": "poolCue",
+					"pivot": [-5.5, 17.5, -5.5],
+					"cubes": [
+						{"origin": [-1, 0, 0], "size": [1, 32, 1], "uv": [0, 0]}
+					]
+				}
+			]
+		}
+	]
+}

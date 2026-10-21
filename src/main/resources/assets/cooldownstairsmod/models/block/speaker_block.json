@@ -1,0 +1,12 @@
+{
+  "parent": "minecraft:block/cube",
+  "textures": {
+    "north": "cooldownstairsmod:block/speaker1x1_face",
+    "south": "cooldownstairsmod:block/speaker1x1_top",
+    "east": "cooldownstairsmod:block/speaker1x1_eside",
+    "west": "cooldownstairsmod:block/speaker1x1_wside",
+    "up": "cooldownstairsmod:block/speaker1x1_top",
+    "down": "cooldownstairsmod:block/speaker1x1_bottom",
+    "particle": "cooldownstairsmod:block/speaker1x1_face"
+  }
+}

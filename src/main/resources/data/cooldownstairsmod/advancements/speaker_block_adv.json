@@ -1,0 +1,100 @@
+{
+  "parent": "cooldownstairsmod:root",
+  "display": {
+    "icon": {
+      "item": "cooldownstairsmod:speaker_block"
+    },
+    "title": "RAISE THE ROOF!",
+    "description": "Build a 2x2x2 speaker and feel the anadoic hardcore.",
+    "frame": "goal",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "req_2x2x2_1a": {
+      "trigger": "minecraft:block_placed",
+      "conditions": {
+        "block": "cooldownstairsmod:speaker_block",
+        "state": {
+          "type": "2x2x2_1a"
+        }
+      }
+    },
+    "req_2x2x2_1b": {
+      "trigger": "minecraft:block_placed",
+      "conditions": {
+        "block": "cooldownstairsmod:speaker_block",
+        "state": {
+          "type": "2x2x2_1b"
+        }
+      }
+    },
+    "req_2x2x2_2a": {
+      "trigger": "minecraft:block_placed",
+      "conditions": {
+        "block": "cooldownstairsmod:speaker_block",
+        "state": {
+          "type": "2x2x2_2a"
+        }
+      }
+    },
+    "req_2x2x2_2b": {
+      "trigger": "minecraft:block_placed",
+      "conditions": {
+        "block": "cooldownstairsmod:speaker_block",
+        "state": {
+          "type": "2x2x2_2b"
+        }
+      }
+    },
+    "req_2x2x2_3a": {
+      "trigger": "minecraft:block_placed",
+      "conditions": {
+        "block": "cooldownstairsmod:speaker_block",
+        "state": {
+          "type": "2x2x2_3a"
+        }
+      }
+    },
+    "req_2x2x2_3b": {
+      "trigger": "minecraft:block_placed",
+      "conditions": {
+        "block": "cooldownstairsmod:speaker_block",
+        "state": {
+          "type": "2x2x2_3b"
+        }
+      }
+    },
+    "req_2x2x2_4a": {
+      "trigger": "minecraft:block_placed",
+      "conditions": {
+        "block": "cooldownstairsmod:speaker_block",
+        "state": {
+          "type": "2x2x2_4a"
+        }
+      }
+    },
+    "req_2x2x2_4b": {
+      "trigger": "minecraft:block_placed",
+      "conditions": {
+        "block": "cooldownstairsmod:speaker_block",
+        "state": {
+          "type": "2x2x2_4b"
+        }
+      }
+    }
+  },
+  "requirements": [
+    [
+      "req_2x2x2_1a",
+      "req_2x2x2_1b",
+      "req_2x2x2_2a",
+      "req_2x2x2_2b",
+      "req_2x2x2_3a",
+      "req_2x2x2_3b",
+      "req_2x2x2_4a",
+      "req_2x2x2_4b"
+    ]
+  ]
+}

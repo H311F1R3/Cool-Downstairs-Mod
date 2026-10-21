@@ -9,22 +9,28 @@ import net.minecraftforge.registries.ForgeRegistries;
 import net.minecraftforge.registries.RegistryObject;
 
 public class coolDownstairsSoundEvents {
-    public static final DeferredRegister<SoundEvent> SOUND_EVENTS = DeferredRegister.create(ForgeRegistries.SOUND_EVENTS, coolDownstairsMod.MOD_ID);
+    // Make sure sound files are in mono asshole
+    public static final DeferredRegister<SoundEvent> SOUND_EVENTS = DeferredRegister
+            .create(ForgeRegistries.SOUND_EVENTS, coolDownstairsMod.MOD_ID);
 
     public static final RegistryObject<SoundEvent> DUMMY_FACE_USE = registerSoundEvents("dummy_face_use");
 
-    public static final RegistryObject<SoundEvent> DEALMAKER_EQUIP_SOUND =
-            SOUND_EVENTS.register("dealmaker_equip",
-                    () -> SoundEvent.createVariableRangeEvent(ResourceLocation.fromNamespaceAndPath(coolDownstairsMod.MOD_ID, "dealmaker_equip")));
+    public static final RegistryObject<SoundEvent> DEALMAKER_EQUIP_SOUND = SOUND_EVENTS.register("dealmaker_equip",
+            () -> SoundEvent.createVariableRangeEvent(
+                    ResourceLocation.fromNamespaceAndPath(coolDownstairsMod.MOD_ID, "dealmaker_equip")));
     public static final RegistryObject<SoundEvent> CHA_CHING = registerSoundEvents("cha_ching");
     public static final RegistryObject<SoundEvent> FOOTBALLHELM_EQUIP_SOUND = registerSoundEvents("footballhelm_equip");
+    public static final RegistryObject<SoundEvent> BUBBLEGUM_BLOW = registerSoundEvents("bubblegum_blow");
+    public static final RegistryObject<SoundEvent> BUBBLEGUM_POP = registerSoundEvents("bubblegum_pop");
+    public static final RegistryObject<SoundEvent> KNOBTURN1 = registerSoundEvents("knobturn1");
+    public static final RegistryObject<SoundEvent> KNOBTURN2 = registerSoundEvents("knobturn2");
 
     private static RegistryObject<SoundEvent> registerSoundEvents(final String name) {
-        return SOUND_EVENTS.register(name, () -> SoundEvent.createVariableRangeEvent(ResourceLocation.fromNamespaceAndPath(coolDownstairsMod.MOD_ID, name)));
+        return SOUND_EVENTS.register(name, () -> SoundEvent
+                .createVariableRangeEvent(ResourceLocation.fromNamespaceAndPath(coolDownstairsMod.MOD_ID, name)));
     }
 
     public static void register(IEventBus eventBus) {
         SOUND_EVENTS.register(eventBus);
     }
 }
-

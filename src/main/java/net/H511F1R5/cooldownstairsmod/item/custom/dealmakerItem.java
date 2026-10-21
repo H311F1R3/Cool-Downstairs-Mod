@@ -1,6 +1,6 @@
 package net.H511F1R5.cooldownstairsmod.item.custom;
 
-import net.H511F1R5.cooldownstairsmod.item.modItems;
+import net.H511F1R5.cooldownstairsmod.item.coolDownstairsItems;
 import net.H511F1R5.cooldownstairsmod.effect.coolDownstairsEffectRegistry;
 import net.minecraft.world.effect.MobEffectInstance;
 import net.minecraft.world.entity.player.Player;
@@ -18,7 +18,7 @@ public class dealmakerItem extends ArmorItem {
     @Override
     public void onArmorTick(ItemStack stack, Level world, Player player) {
         if (!world.isClientSide) {
-            if (player.getInventory().armor.get(3).getItem() == modItems.DEALMAKER.get()) {
+            if (player.getInventory().armor.get(3).getItem() == coolDownstairsItems.DEALMAKER.get()) {
                 player.addEffect(new MobEffectInstance(coolDownstairsEffectRegistry.BIG_SHOT.get(), 200, 0, false, false, true));
             }
         }

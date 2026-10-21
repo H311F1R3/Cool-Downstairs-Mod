@@ -1,7 +1,58 @@
 {
   "variants": {
-    "": {
-      "model": "cooldownstairsmod/block/speaker_block"
-    }
+    "facing=north,type=single": { "model": "cooldownstairsmod:block/speaker_block" },
+    "facing=east,type=single": { "model": "cooldownstairsmod:block/speaker_block", "y": 90 },
+    "facing=south,type=single": { "model": "cooldownstairsmod:block/speaker_block", "y": 180 },
+    "facing=west,type=single": { "model": "cooldownstairsmod:block/speaker_block", "y": 270 },
+
+    "facing=north,type=1x1x2_1a": { "model": "cooldownstairsmod:block/speakers/1x1x2_1a" },
+    "facing=east,type=1x1x2_1a": { "model": "cooldownstairsmod:block/speakers/1x1x2_1a", "y": 90 },
+    "facing=south,type=1x1x2_1a": { "model": "cooldownstairsmod:block/speakers/1x1x2_1a", "y": 180 },
+    "facing=west,type=1x1x2_1a": { "model": "cooldownstairsmod:block/speakers/1x1x2_1a", "y": 270 },
+
+    "facing=north,type=1x1x2_2a": { "model": "cooldownstairsmod:block/speakers/1x1x2_2a" },
+    "facing=east,type=1x1x2_2a": { "model": "cooldownstairsmod:block/speakers/1x1x2_2a", "y": 90 },
+    "facing=south,type=1x1x2_2a": { "model": "cooldownstairsmod:block/speakers/1x1x2_2a", "y": 180 },
+    "facing=west,type=1x1x2_2a": { "model": "cooldownstairsmod:block/speakers/1x1x2_2a", "y": 270 },
+
+    "facing=north,type=2x2x2_1a": { "model": "cooldownstairsmod:block/speaker_block" },
+    "facing=east,type=2x2x2_1a": { "model": "cooldownstairsmod:block/speaker_block", "y": 90 },
+    "facing=south,type=2x2x2_1a": { "model": "cooldownstairsmod:block/speaker_block", "y": 180 },
+    "facing=west,type=2x2x2_1a": { "model": "cooldownstairsmod:block/speaker_block", "y": 270 },
+
+    "facing=north,type=2x2x2_1b": { "model": "cooldownstairsmod:block/speaker_block" },
+    "facing=east,type=2x2x2_1b": { "model": "cooldownstairsmod:block/speaker_block", "y": 90 },
+    "facing=south,type=2x2x2_1b": { "model": "cooldownstairsmod:block/speaker_block", "y": 180 },
+    "facing=west,type=2x2x2_1b": { "model": "cooldownstairsmod:block/speaker_block", "y": 270 },
+
+    "facing=north,type=2x2x2_2a": { "model": "cooldownstairsmod:block/speaker_block" },
+    "facing=east,type=2x2x2_2a": { "model": "cooldownstairsmod:block/speaker_block", "y": 90 },
+    "facing=south,type=2x2x2_2a": { "model": "cooldownstairsmod:block/speaker_block", "y": 180 },
+    "facing=west,type=2x2x2_2a": { "model": "cooldownstairsmod:block/speaker_block", "y": 270 },
+
+    "facing=north,type=2x2x2_2b": { "model": "cooldownstairsmod:block/speaker_block" },
+    "facing=east,type=2x2x2_2b": { "model": "cooldownstairsmod:block/speaker_block", "y": 90 },
+    "facing=south,type=2x2x2_2b": { "model": "cooldownstairsmod:block/speaker_block", "y": 180 },
+    "facing=west,type=2x2x2_2b": { "model": "cooldownstairsmod:block/speaker_block", "y": 270 },
+
+    "facing=north,type=2x2x2_3a": { "model": "cooldownstairsmod:block/speaker_block" },
+    "facing=east,type=2x2x2_3a": { "model": "cooldownstairsmod:block/speaker_block", "y": 90 },
+    "facing=south,type=2x2x2_3a": { "model": "cooldownstairsmod:block/speaker_block", "y": 180 },
+    "facing=west,type=2x2x2_3a": { "model": "cooldownstairsmod:block/speaker_block", "y": 270 },
+
+    "facing=north,type=2x2x2_3b": { "model": "cooldownstairsmod:block/speaker_block" },
+    "facing=east,type=2x2x2_3b": { "model": "cooldownstairsmod:block/speaker_block", "y": 90 },
+    "facing=south,type=2x2x2_3b": { "model": "cooldownstairsmod:block/speaker_block", "y": 180 },
+    "facing=west,type=2x2x2_3b": { "model": "cooldownstairsmod:block/speaker_block", "y": 270 },
+
+    "facing=north,type=2x2x2_4a": { "model": "cooldownstairsmod:block/speaker_block" },
+    "facing=east,type=2x2x2_4a": { "model": "cooldownstairsmod:block/speaker_block", "y": 90 },
+    "facing=south,type=2x2x2_4a": { "model": "cooldownstairsmod:block/speaker_block", "y": 180 },
+    "facing=west,type=2x2x2_4a": { "model": "cooldownstairsmod:block/speaker_block", "y": 270 },
+
+    "facing=north,type=2x2x2_4b": { "model": "cooldownstairsmod:block/speaker_block" },
+    "facing=east,type=2x2x2_4b": { "model": "cooldownstairsmod:block/speaker_block", "y": 90 },
+    "facing=south,type=2x2x2_4b": { "model": "cooldownstairsmod:block/speaker_block", "y": 180 },
+    "facing=west,type=2x2x2_4b": { "model": "cooldownstairsmod:block/speaker_block", "y": 270 }
   }
 }

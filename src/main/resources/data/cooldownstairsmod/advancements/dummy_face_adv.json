@@ -1,4 +1,5 @@
 {
+  "parent": "cooldownstairsmod:root",
   "display": {
     "icon": {
       "item": "cooldownstairsmod:dummy_face"
@@ -8,8 +9,7 @@
     "frame": "challenge",
     "show_toast": true,
     "announce_to_chat": true,
-    "hidden": false,
-    "background": "cooldownstairs:textures/item/dummyface.png"
+    "hidden": true
   },
   "criteria": {
     "requirement": {
@@ -24,5 +24,10 @@
         ]
       }
     }
-  }
+  },
+  "requirements": [
+    [
+      "requirement"
+    ]
+  ]
 }

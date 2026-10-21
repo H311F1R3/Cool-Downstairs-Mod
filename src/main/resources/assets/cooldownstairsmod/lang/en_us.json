@@ -4,12 +4,44 @@
   "item.cooldownstairsmod.chainsword": "Chainsword",
   "item.cooldownstairsmod.pool_cue": "Pool Cue",
   "item.cooldownstairsmod.tigger_tell": "Tigger Tell",
+  "item.cooldownstairsmod.football_helmet": "Football Helmet",
+  "item.cooldownstairsmod.bubblegum_ball": "Bubblegum Ball",
+  "item.cooldownstairsmod.chicken_shank": "Chicken Shank",
+  "item.cooldownstairsmod.roller_skates": "Roller Skates",
+  "item.cooldownstairsmod.game_component": "Game Component",
+
   "block.cooldownstairsmod.billiard_table": "Billiard Table",
   "block.cooldownstairsmod.speaker_block": "Speaker Block",
+  "block.cooldownstairsmod.ddr_pad": "DDR Pad",
+  "block.cooldownstairsmod.rastanana": "Rastanana",
+  "block.cooldownstairsmod.billiard_game_table": "Billiard Game Table",
+  "block.cooldownstairsmod.gumball_tower": "Gumball Tower",
+
   "effect.cooldownstairsmod.big_shot": "[BIG SHOT]",
   "effect.cooldownstairsmod.chain_bleed": "Chain Bleed",
+  "effect.cooldownstairsmod.bastion_man": "Bastion Man",
+
   "subtitles.cooldownstairsmod.dummy_face_use": "Dummy Face used",
   "subtitles.cooldownstairsmod.dealmaker_equip": "Dealmaker [WORN]",
   "subtitles.cooldownstairsmod.cha_ching": "WHAT A DEAL!",
-  "creativetab.cooldownstairs_tab": "Cool Downstairs Mod"
+  "subtitles.cooldownstairsmod.bubblegum_blow": "Blowing Gum Bubble",
+  "subtitles.cooldownstairsmod.bubblegum_pop": "Gum Bubble Popped",
+  "subtitles.cooldownstairsmod.knobturn1": "Knob Turned",
+  "subtitles.cooldownstairsmod.knobturn2": "Knob Turned Again",
+
+  "creativetab.cooldownstairs_tab": "Cool Downstairs Mod",
+
+  "entity.cooldownstairsmod.billiard_ball": "Billiard Ball",
+  
+  "tooltips.cooldownstairsmod.pool_cue.tooltip": "Maybe you can play pool with this?",
+  "tooltips.cooldownstairsmod.billiard_table.tooltip": "Combine together to make a full table.",
+  "tooltips.cooldownstairsmod.bubblegum_blu": "Tastes like Blueberry!",
+  "tooltips.cooldownstairsmod.bubblegum_grn": "Tastes like Lime!",
+  "tooltips.cooldownstairsmod.bubblegum_ylw": "Tastes like Lemon!",
+  "tooltips.cooldownstairsmod.bubblegum_pur": "Tastes like Grape!",
+  "tooltips.cooldownstairsmod.bubblegum_orn": "Tastes like Orange!",
+  "tooltips.cooldownstairsmod.bubblegum_red": "Tastes like Cherry!",
+  "tooltips.cooldownstairsmod.bubblegum_wht": "Bubblegum-Flavored gum. Boring.",
+  "tooltips.cooldownstairsmod.bubblegum_trq": "Tastes like Cotton Candy!",
+  "tooltips.cooldownstairsmod.bubblegum_pnk": "Tastes like Strawberry!"
 }

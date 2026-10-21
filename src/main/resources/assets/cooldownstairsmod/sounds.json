@@ -16,5 +16,17 @@
     "sounds": [
       "cooldownstairsmod:cha_ching"
     ]
+  },
+  "knobturn1": {
+    "subtitle": "subtitles.cooldownstairsmod.knobturn1",
+    "sounds": [
+      "cooldownstairsmod:knobturn1"
+    ]
+  },
+  "knobturn2": {
+    "subtitle": "subtitles.cooldownstairsmod.knobturn2",
+    "sounds": [
+      "cooldownstairsmod:knobturn2"
+    ]
   }
 }
