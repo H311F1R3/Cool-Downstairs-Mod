@@ -15,7 +15,7 @@ public class coolDownstairsBlockEntities {
     
     public static final RegistryObject<BlockEntityType<billiardGameTableBlockEntity>> BILLIARD_GAME_TABLE_BE = 
         BLOCK_ENTITIES.register("billiard_game_table_be", () -> 
-            BlockEntityType.Builder.of(billiardGameTableBlockEntity::new, coolDownstairsBlocks.BILLIARD_GAME_BLOCK.get()).build(null));
+            BlockEntityType.Builder.of(billiardGameTableBlockEntity::new, coolDownstairsBlocks.BILLIARD_GAME_TABLE.get()).build(null));
     public static final RegistryObject<BlockEntityType<gumballTowerBlockEntity>> GUMBALL_TOWER_BE = 
         BLOCK_ENTITIES.register("gumball_tower_be", () ->
             BlockEntityType.Builder.of(gumballTowerBlockEntity::new, coolDownstairsBlocks.GUMBALL_TOWER.get()).build(null));

@@ -1,4 +1,4 @@
-package net.screen;
+package net.H511F1R5.cooldownstairsmod.screen;
 
 import net.minecraft.client.gui.GuiGraphics;
 import net.minecraft.client.gui.screens.inventory.AbstractContainerScreen;
@@ -11,12 +11,12 @@ import com.mojang.blaze3d.systems.RenderSystem;
 
 import net.H511F1R5.cooldownstairsmod.coolDownstairsMod;
 
-public class billiardGameTableBlockScreen extends AbstractContainerScreen<billiardGameTableBlockMenu> {
+public class billiardGameTableBlockScreen extends AbstractContainerScreen<net.H511F1R5.cooldownstairsmod.screen.billiardGameTableBlockMenu> {
 
     public static ResourceLocation TEXTURE = 
       new ResourceLocation(coolDownstairsMod.MOD_ID, "textures/gui/billiard_game_table_block.png");
     
-    public billiardGameTableBlockScreen(billiardGameTableBlockMenu pMenu, Inventory pPlayerInventory, Component pTitle) {
+    public billiardGameTableBlockScreen(net.H511F1R5.cooldownstairsmod.screen.billiardGameTableBlockMenu pMenu, Inventory pPlayerInventory, Component pTitle) {
         super(pMenu, pPlayerInventory, pTitle);
     }
 

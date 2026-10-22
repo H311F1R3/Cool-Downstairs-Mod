@@ -30,7 +30,7 @@ public class coolDownstairsBlocks {
                                         .noCollission()));
         public static final RegistryObject<Block> GUMBALL_TOWER = registerBlock("gumball_tower",
                         () -> new gumballTowerBlock(BlockBehaviour.Properties.copy(Blocks.IRON_BLOCK).noOcclusion()));
-        public static final RegistryObject<Block> BILLIARD_GAME_BLOCK = registerBlock("billiard_game_block",
+        public static final RegistryObject<Block> BILLIARD_GAME_TABLE = registerBlock("billiard_game_table",
                         () -> new billiardGameBlock(BlockBehaviour.Properties.copy(Blocks.SPRUCE_PLANKS).noOcclusion()));
         public static final RegistryObject<Block> VINYL_WOOD = registerBlock("vinyl_wood",
                         () -> new Block(BlockBehaviour.Properties.copy(Blocks.SPRUCE_PLANKS)));

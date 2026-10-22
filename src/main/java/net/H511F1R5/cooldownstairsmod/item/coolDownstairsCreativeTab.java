@@ -30,7 +30,7 @@ public class coolDownstairsCreativeTab {
                         pOutput.accept(coolDownstairsItems.CHICKEN_SHANK.get());
 
                         pOutput.accept(coolDownstairsBlocks.BILLIARD_TABLE.get());
-                        pOutput.accept(coolDownstairsBlocks.BILLIARD_GAME_BLOCK.get());
+                        pOutput.accept(coolDownstairsBlocks.BILLIARD_GAME_TABLE.get());
                         pOutput.accept(coolDownstairsBlocks.SPEAKER_BLOCK.get());
                         pOutput.accept(coolDownstairsBlocks.GUMBALL_TOWER.get());
                         pOutput.accept(coolDownstairsBlocks.VINYL_WOOD.get());

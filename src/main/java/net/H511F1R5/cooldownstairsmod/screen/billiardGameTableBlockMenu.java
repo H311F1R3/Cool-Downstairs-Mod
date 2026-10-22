@@ -2,8 +2,6 @@ package net.H511F1R5.cooldownstairsmod.screen;
 
 import net.H511F1R5.cooldownstairsmod.blocks.coolDownstairsBlocks;
 import net.H511F1R5.cooldownstairsmod.blocks.entity.billiardGameTableBlockEntity;
-import net.H511F1R5.cooldownstairsmod.blocks.entity.coolDownstairsBlockEntities;
-import net.minecraft.client.gui.GuiGraphics;
 import net.minecraft.world.entity.player.Player;
 import net.minecraft.network.FriendlyByteBuf;
 import net.minecraft.world.entity.player.Inventory;
@@ -112,7 +110,7 @@ public class billiardGameTableBlockMenu extends AbstractContainerMenu {
     @Override
     public boolean stillValid(Player pPlayer) {
         return stillValid(ContainerLevelAccess.create(level, blockEntity.getBlockPos()),
-                pPlayer, coolDownstairsBlocks.BILLIARD_GAME_BLOCK.get());
+                pPlayer, coolDownstairsBlocks.BILLIARD_GAME_TABLE.get());
     }
 
     private void addPlayerInventory(Inventory playerInventory) {

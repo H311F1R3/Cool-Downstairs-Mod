@@ -23,7 +23,6 @@ import net.minecraft.client.renderer.ItemBlockRenderTypes;
 import net.minecraft.client.renderer.RenderType;
 import net.minecraft.client.renderer.item.ItemProperties;
 import net.minecraft.resources.ResourceLocation;
-import net.H511F1R5.cooldownstairsmod.item.custom.bubblegumBallItem;
 
 
 // The value here should match an entry in the META-INF/mods.toml file
