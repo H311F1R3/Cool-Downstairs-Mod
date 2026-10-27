@@ -141,7 +141,7 @@ public class billiardGameTableBlockEntity extends BlockEntity implements MenuPro
 
     public void tick(Level level, BlockPos pos, BlockState state) {
         if(hasPayment()){
-            increaseGameReadiness(); // increases progress
+            increaseGameReadiness(); // increase progress
             setChanged(level, pos, state);
 
             if(hasProgressFinished()){

@@ -45,12 +45,6 @@ public class billiardGameBlock extends ConnectedTextureBlock implements EntityBl
         return RenderShape.MODEL;
     }
 
-    @Override
-    public VoxelShape getCollisionShape(BlockState pState, BlockGetter pLevel, BlockPos pPos,
-            CollisionContext pContext) {
-        return SHAPE;
-    }
-
     @SuppressWarnings("deprecation")
     @Override
     public void onRemove(BlockState state, Level level, BlockPos pos, BlockState newState, boolean moved) {
